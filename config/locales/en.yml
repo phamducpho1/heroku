@@ -1,0 +1,269 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  dollar: "$"
+  title: "Food and Drink"
+  add: "+"
+  remove: "-"
+  ple_login: "Please login "
+  mail_oder: "List order"
+  comment: "Comments"
+  orders_controller:
+    create: "Create order success!"
+    errror: "errror create order"
+  static_pages_controller:
+    errors: "Categories does not exit"
+    success: "Line item was successfully created"
+    error_item: "line item does not exit"
+    error_product: "Product does not exit"
+    eror_cart: "Carts does not exits"
+    eror_nilcart: "Delete Cart successfully"
+    item_path: "Delete item successfully"
+    succsess: "insert product successfully"
+  users_controller:
+    signup: "Signup susscess"
+    errorss: "User does not exit"
+    create: "create user error"
+    sign_up: "login error"
+  hello: "Hello World"
+  shared:
+    _error_messages:
+      eror: "The form contains "
+  sessions:
+    new:
+      login: "Log in"
+      newuser: "New user?"
+      singupnow: "Sign up now!"
+      remember: "Remember me on this computer"
+  layouts:
+    _header:
+      search: "Search"
+      history: "History"
+      App: "Food and drink"
+      home: "Home"
+      suggest: "Suggest"
+      log: "Log in"
+      users: "Users"
+      account: "Account"
+      logout: "Logout"
+      profile: "Profile"
+      setting: "Settings"
+      category: "Category"
+      product: "Product"
+      order: "Order"
+      cart: "Cart"
+      item: "- item"
+      statistics: "Statistics"
+      admin_suggest: "Admin suggest"
+    application:
+      title: "Project"
+    _footer:
+      copy: " Copy Right By Food and Drink @2015"
+  static_pages:
+    home:
+      welcome: "Welcome to the Food and Drink"
+      for: "This is the home page for the "
+      ahert: "Ruby on Rails Tutorial"
+      micropost: "Micropost Feed"
+      application: "sample application."
+      sign: "Sign up now!"
+      product: "Product Categories"
+      find: "   PRODUCT"
+      details: "Details"
+      search: "Product by price"
+      submit: "Search"
+      hot: "Marketable product on October "
+    help:
+      title: "Help"
+      head: "StaticPages#help"
+      content: "Find me in app/views/static_pages/help.html.erb"
+  users:
+    new:
+      title: "Sign up"
+      create: "Create my account"
+      confirm: "Confirmation"
+    index:
+      title: "User"
+      delete: "Delete"
+      sure: "You sure ?"
+      titlecategory: "Category"
+  product:
+    show:
+      name: "Product name: "
+      price: "Price :   "
+      quanlity: " Quanlity : "
+      addtocart: "Add To Cart"
+      description: "Description"
+      review: "No review"
+      related: "Related Products "
+      sale: "Sale "
+      newproduct: "NEW PRODUCTS"
+      review: "Review"
+      comment: "New comments"
+      rating: "Rating breakdown"
+      status: "Status: unavailabe"
+  admin:
+      id: "ID"
+      name: "Name"
+      create: "Created_at"
+      update: "Updated_at"
+      deleted: "Delete is suscessful"
+      notdelete: "Delete is not successful"
+      product: "Product"
+      search: "Search"
+      price: "Price"
+      createat: "Created_at"
+      updatesuc: "Update success"
+      updatefail: "Update fail"
+      create: "Create is suscessful"
+      notcreate: "Create is not successful"
+      category:
+        title: "Create Category"
+        titleupdate: "Update Category"
+        category: "Category"
+        placename: "Drink"
+        update: "Update"
+      product:
+        title: "Create Product"
+        titleupdate: "Update Product"
+        product: "Product"
+        create: "Create"
+        update: "Update"
+      user:
+        titleupdate: "Update User"
+        update: "Update"
+        phone: "Phone"
+        address: "Address"
+      order:
+        title: "Order"
+        titleupdate: "Update Information"
+        nothandle: "Not Handle"
+        handled: "Handled"
+        update: "Update"
+        person: "Person"
+        phone: "Phone"
+        address: "Address"
+        total: "Total_amount"
+        totala: "Total_amount"
+        status: "Status"
+        create: "Created_at"
+        update: "Updated_at"
+        name: "Name: "
+        total: "Total Money: "
+        pro_id: "Product_id"
+        history: "History Order"
+        pro_name: "Product_name"
+        image: "Image"
+        pro_price: "Product_price"
+        pro_quan: "Product_quanlity"
+        sum: "Sum"
+        orderdetail: "Orderdetail"
+      suggest:
+        title: "Suggest"
+        content: "Content"
+        titleuser: "Please leave feedback so that we can serve better"
+        contact: "Contact with us"
+        topic: "Food and Drink"
+        locate: "Framgia Da Nang, VietNam"
+        by: "By: Minh and Pho"
+        mobile: "Mobile: +841212875412"
+        fax: "Fax: 1-714-252-0026"
+        mail: "Email: hoangminh11081996@gmail.com"
+  carts:
+    show:
+      cart: "Your cart"
+      image: "Image"
+      category: "Category"
+      name: "Product name"
+      quanlity: "Quanlity"
+      price: "Price"
+      sum: "Sum money"
+      action: "Action"
+      delete_cart: "Delete carts"
+      eror: "Are you sure?"
+      cart_total: "Cart Totals"
+      sub_total: "Cart Subtotal:"
+      ship: "Shipping:"
+      free: "Free Shipping"
+      continue: "Continue Shopping"
+      order: "Order"
+  orders:
+    new:
+      title: "ORDER INFORMATION"
+      order: " Order"
+      back: "Back order"
+  user_mailer:
+    order: "Order hot"
+    content: "You've received a "
+    orders: "  order"
+    details : "Details "
+    id: "id"
+    name: "name"
+    address: "address"
+    phone: "phone"
+    order_to: "Go to order"
+  suggest:
+    title: "Suggest"
+    content: "Content"
+    yourmess: "Your Content suggest "
+    suggest: "Suggest"
+    titleuser: "Please leave feedback so that we can serve better"
+    contact: "Contact with us"
+    topic: "Food and Drink"
+    locate: "Framgia Da Nang, VietNam"
+    by: "By: Minh and Pho"
+    mobile: "Mobile: +841212875412"
+    fax: "Fax: 1-714-252-0026"
+    mail: "Email: hoangminh11081996@gmail.com"
+  statistic:
+    title: "Statistic"
+    byday: "Statistic by day"
+    bymonth: "Statistic by month"
+    byyear: "Statistic by year"
+    date: "Date"
+    month: "Month"
+    year: "Year"
+    order: "Order"
+    total: "Total"
+  user:
+    edit:
+      title: "Update Profile"
+      update: "Update"
+    show:
+      name: "User Name: "
+      email: "Email: "
+      phone: "Phone: "
+      address: "Address: "
+  raiting:
+    not_ratings: "You voted for the product"
+    success_raiting: "Vote successful"
+
